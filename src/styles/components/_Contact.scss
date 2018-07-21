@@ -1,0 +1,92 @@
+.contact-component {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F3F5FA;
+    padding-left: 8%;
+    padding-right: 8%;
+
+    @media (max-width: 1150px) {
+        padding-left: 6%;
+        padding-right: 6%
+    }
+}
+
+.get-in-touch-title {
+    padding-bottom: 40px;
+    font-weight: 300;
+
+    @media (max-width: 650px) {
+        font-size: 24px;
+    }
+}
+
+.get-in-touch-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-in-touch-component {
+    margin: 10px;
+    color: #e78967;
+    font-weight: 400;
+
+    & h2 {
+        font-size: 22px;
+
+        @media (max-width: 650px) {
+            font-size: 18px;
+        }
+    }
+}
+
+.contact-hr {
+    display: block;
+    height: 1px;
+    width: 50%;
+    border: 0;
+    border-top: 2px solid #e78967;
+    margin-top: 18px;
+    padding: 0; 
+}
+
+.icons-component {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    & h2 {
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+
+    @media (max-width: 830px) {
+        flex-direction: column;
+    }
+}
+
+.icon-component {
+    width: 100%;
+}
+
+.icon {
+    padding-top: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

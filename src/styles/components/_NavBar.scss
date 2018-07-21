@@ -1,0 +1,73 @@
+.home-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("homepage_img.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .homepage-title {
+      color: whitesmoke;
+      padding: 18px;
+      text-align: center;
+      font-size: 48px;
+      font-weight: 300;
+      position: absolute;
+  
+      @media (max-width: $desktop-breakpoint) {
+        font-size: 40px;
+        padding-left: 60px;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 30px;
+      padding-left: 60px;
+  }
+  }
+
+  .button-homepage {
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 12px 22px 12px 22px;
+    background-color: #e78967;
+    border: none;
+    opacity: 0.8;
+    color: white;
+    letter-spacing: 0.150em;
+    box-shadow: none !important;
+    cursor: pointer;
+    margin: 10px;
+
+    @media (max-width: 410px) {
+      font-size: 12px;
+      padding: 8px 18px 8px 18px;
+    }
+  }
+  
+  .navbar {
+      padding-top: 18px;
+      padding-bottom: 12px;
+      position: fixed;
+      width: 100%;
+      height: 24px;
+      text-align: right;
+      z-index: 999;
+    }
+  
+    .homepage-text-divider {
+      width: 60%;
+      margin-bottom: 50px;
+    }
+    .navbar-solid {
+      background-color: #323232;
+    }
+    
+    .navbar-item {
+      padding-right: 48px;
+      color: whitesmoke;
+      cursor: pointer;    
+    }

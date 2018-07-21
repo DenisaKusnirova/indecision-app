@@ -1,13 +1,14 @@
 // 1 rem equals 16 px
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600');
+@import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";
 
 html {
   font-size: 62.5%;
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: $m-size;
-  background-color: $dark-blue;
 }
 
 button {

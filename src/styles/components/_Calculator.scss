@@ -1,0 +1,145 @@
+.calculator-component {
+    background-color: white;
+}
+
+.calculator-component-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 70%;
+    margin: 0 auto;
+
+    @media (max-width: 1200px) {
+        width: 100%;
+    }
+}
+
+.calculator-header {
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.calculator-subheading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding-top: 30px;
+}
+
+.calculator-detail-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.calculator-subheading-room {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding-top: 30px;
+}
+
+.text-input {
+    width: 230px;
+
+    & label {
+        font-size: 1.8rem;
+    }
+}
+
+.text-input-reconstruction {
+    width: 200px;
+
+    & label {
+        font-size: 1.8rem;
+    }
+}
+
+#text-input {
+    font-size: 16px;
+}
+
+.calculator-component1-fields {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+    @media (max-width: 760px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+Button {
+    white-space: nowrap;
+    overflow: hidden;
+    height: 40px;
+}
+
+span {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #e78967;
+    padding: 0;
+}
+
+.result {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.calculator-component-result {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+    & p{
+        padding-left: 40px;
+    }
+
+    @media (max-width: 760px) {
+        flex-direction: column;
+
+        & p{
+            padding-left: 0;
+        }
+    }
+}
+
+.calculator-img {
+    height: 160px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.figure-component {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+    @media (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+figure {
+    width: 210px;
+    margin: 0 auto;
+}
